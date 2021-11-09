@@ -19,6 +19,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 1rem 1rem;
+  align-items: center;
 }
 
 .nav--bar a {
@@ -41,28 +42,7 @@ body {
 
 @media screen and (min-width: 764px) {
   .nav--bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin: 1rem 4rem;
-  }
-
-  .nav--bar a {
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.25rem;
-    justify-content: end;
-    transition: 0.25s;
-    color: #444444;
-  }
-
-  .nav--bar a:hover {
-    transform: scale(1.1);
-  }
-
-  .nav--pages {
-    display: flex;
-    flex-direction: row;
   }
 }
 
