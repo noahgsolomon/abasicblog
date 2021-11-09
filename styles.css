@@ -45,13 +45,13 @@ body {
   font-size: 1.4rem;
 }
 .logo--1 {
-  margin: 0 0 0 2.5rem;
+  margin: 0;
 }
 .logo--2 {
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 0.5rem;
 }
 .logo--3 {
-  margin: 0 0 0 4.5rem;
+  margin: 0 0 0 2rem;
 }
 .logo a {
   text-decoration: none;
@@ -73,4 +73,11 @@ body {
   display: inline-block;
   margin: 1rem 0;
   font-size: 3rem;
+}
+.think {
+  letter-spacing: 1px;
+}
+
+.different {
+  letter-spacing: 10px;
 }
