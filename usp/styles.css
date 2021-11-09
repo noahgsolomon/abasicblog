@@ -101,3 +101,31 @@ ul {
   text-decoration: none;
   color: #444444;
 }
+
+/*To top of screen */
+
+.container--to--top {
+  display: flex;
+  justify-content: center;
+}
+
+.to--top {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.to--top a {
+  text-decoration: none;
+  color: #444444;
+  text-align: center;
+}
+
+.to--top p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  transition: 0.25s;
+}
+
+.to--top p:hover {
+  font-size: 2.75rem;
+}
