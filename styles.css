@@ -100,9 +100,15 @@ form .title {
   flex-direction: row;
   justify-content: space-around;
 }
+.outside--flex {
+  display: flex;
+  justify-content: center;
+}
+
 .newsletter--container {
   display: none;
   justify-content: center;
+  position: absolute;
 }
 .newsletter {
   -webkit-box-shadow: 5px 5px 0px 0px #289fed, 10px 10px 0px 0px #5fb8ff,
