@@ -7,14 +7,15 @@ body {
   background-color: #f5f3ec;
   color: #444444;
   margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
+/* Content */
 .container h2,
-h3 {
+.container h3 {
   text-align: center;
   margin-top: 1rem;
   font-size: 2rem;
-  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -30,7 +31,6 @@ ul {
   text-align: left;
   line-height: 30px;
   font-size: 1.8rem;
-  font-family: "Raleway", sans-serif;
 }
 .container p,
 .container h2,
@@ -44,8 +44,8 @@ ul {
 }
 
 @media screen and (min-width: 764px) {
-  h2,
-  h3 {
+  .container h2,
+  .container h3 {
     margin: 1 0 auto auto;
   }
   p,
