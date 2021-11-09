@@ -40,7 +40,17 @@
     </div>
     <div class="outside--flex">
       <div class="newsletter--container">
-        <form class="newsletter">
+        <form class="newsletter" action="index.php" method="POST">
+          <?php
+          if(isset($_POST['subscribe'])) { //if subscribed button is clicked
+            $userEmail = $_POST['email']; //getting user email
+            if(filter_var($userEmail, FILTER_VALIDATE_EMAIL)) { //validating user entered email
+              echo "Email is correct";
+            }else{
+              echo "Invalid Email";
+            }
+          }
+          ?>
           <div class="title">
             <h2>Join Our Newsletter.</h2>
             <div class="newsletter--close"><i class="fas fa-times"></i></div>
@@ -49,10 +59,11 @@
             <i class="fas fa-envelope-open-text fa-3x"></i>
             <input
               type="email"
+              name="email"
               spellcheck="false"
               placeholder="Enter your email..."
             />
-            <button type="submit">Subscribe</button>
+            <button type="submit" name="subscribe">Subscribe</button>
           </div>
         </form>
       </div>
