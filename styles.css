@@ -95,9 +95,13 @@ body {
 /* Newsletter Popup*/
 form .title {
   margin: 2rem auto 2rem 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .newsletter--container {
-  display: flex;
+  display: none;
   justify-content: center;
 }
 .newsletter {
@@ -151,6 +155,10 @@ form .title {
   transition: 0.25s;
 }
 
+.newsletter--close {
+  display: flex;
+  justify-content: end;
+}
 
 ::placeholder {
   font-family: "Raleway", sans-serif;
