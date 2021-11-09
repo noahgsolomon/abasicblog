@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5f3ec;
+  margin: 0;
+}
+/* Nav Bar */
+.nav--bar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 4rem;
+}
+
+.nav--bar a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.25rem;
+  color: #444444;
+  justify-content: end;
+  transition: 0.25s;
+}
+
+.nav--bar a:hover {
+  font-size: 1.35rem;
+}
+
+.nav--pages {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 1.25rem;
+}
+.logo--1 {
+  margin: 0 0 0 2.5rem;
+}
+.logo--2 {
+  margin: 0 0 0 3rem;
+}
+.logo--3 {
+  margin: 0 0 0 4.5rem;
+}
+.logo a {
+  text-decoration: none;
+  color: #444444;
+}

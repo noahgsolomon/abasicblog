@@ -9,10 +9,6 @@ body {
   margin: 0;
 }
 
-::selection {
-  background: #ffb7b7;
-  color: rgb(255, 255, 255);
-}
 h2,
 h3 {
   text-align: center;
