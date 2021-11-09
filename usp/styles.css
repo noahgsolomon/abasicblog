@@ -57,25 +57,23 @@ ul {
 
 /* Nav Bar */
 .nav--bar {
-  font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 1rem 4rem;
-  white-space: 2;
 }
 
 .nav--bar a {
   text-decoration: none;
   margin: 0 10px;
   font-size: 1.25rem;
-  color: #444444;
   justify-content: end;
   transition: 0.25s;
+  color: #444444;
 }
 
 .nav--bar a:hover {
-  font-size: 1.35rem;
+  transform: scale(1.1);
 }
 
 .nav--pages {
@@ -100,6 +98,12 @@ ul {
 .logo a {
   text-decoration: none;
   color: #444444;
+}
+.logo h2 {
+  transition: 0.25s;
+}
+.logo h2:hover {
+  transform: scale(1.1);
 }
 
 /*To top of screen */
