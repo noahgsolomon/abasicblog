@@ -17,8 +17,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   margin: 1rem 4rem;
+  white-space: 2;
 }
 
 .nav--bar a {
