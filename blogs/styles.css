@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f5f3ec;
+  color: #444444;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+/* Nav Bar */
+.nav--bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 4rem;
+}
+
+.nav--bar a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.25rem;
+  justify-content: end;
+  transition: 0.25s;
+  color: #444444;
+}
+
+.nav--bar a:hover {
+  font-size: 1.35rem;
+}
+
+.nav--pages {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 1.4rem;
+}
+.logo--1 {
+  margin: 0;
+}
+.logo--2 {
+  margin: 0 0 0 0.5rem;
+}
+.logo--3 {
+  margin: 0 0 0 2rem;
+}
+.logo a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.list--container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.blog--list h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+.blog--list h2 {
+  font-size: 2.5rem;
+}
+.blog--list h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.25s;
+}
+.blog--list h3:hover {
+  font-size: 1.65rem;
+}
+
+.blog--list a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.ecommerce {
+  border: 5px solid #444444;
+  padding: 2rem 1rem 4rem 1rem;
+}
