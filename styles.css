@@ -10,24 +10,24 @@ html {
 body {
   background-color: #f5f3ec;
   margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #444444;
 }
 /* Nav Bar */
 .nav--bar {
-  font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 1rem 4rem;
-  white-space: 2;
 }
 
 .nav--bar a {
   text-decoration: none;
   margin: 0 10px;
   font-size: 1.25rem;
-  color: #444444;
   justify-content: end;
   transition: 0.25s;
+  color: #444444;
 }
 
 .nav--bar a:hover {
@@ -56,4 +56,21 @@ body {
 .logo a {
   text-decoration: none;
   color: #444444;
+}
+/* content */
+
+.content--container {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  display: inline-block;
+  margin: 1rem 0;
+  font-size: 3rem;
 }
