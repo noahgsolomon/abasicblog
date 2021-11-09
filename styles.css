@@ -18,12 +18,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1rem 4rem;
+  margin: 1rem 1rem;
 }
 
 .nav--bar a {
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 5px;
   font-size: 1.25rem;
   justify-content: end;
   transition: 0.25s;
@@ -37,6 +37,33 @@ body {
 .nav--pages {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (min-width: 764px) {
+  .nav--bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 4rem;
+  }
+
+  .nav--bar a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.25rem;
+    justify-content: end;
+    transition: 0.25s;
+    color: #444444;
+  }
+
+  .nav--bar a:hover {
+    transform: scale(1.1);
+  }
+
+  .nav--pages {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Logo */
