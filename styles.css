@@ -84,11 +84,6 @@ body {
   letter-spacing: 1px;
 }
 
-.different {
-  letter-spacing: 10px;
-  font-family: "Playfair Display", serif;
-}
-
 @media screen and (min-width: 764px) {
 }
 
