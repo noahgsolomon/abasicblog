@@ -81,7 +81,7 @@ body {
   transition: 0.25s;
 }
 .blog--list h3:hover {
-  font-size: 1.65rem;
+  transform: scale(1.1);
 }
 
 .blog--list a {
@@ -92,4 +92,13 @@ body {
 .ecommerce {
   border: 5px solid #444444;
   padding: 2rem 1rem 4rem 1rem;
+}
+
+.ecommerce h3 {
+  color: #858585;
+  transition: 0.25s;
+}
+
+.ecommerce h3:hover {
+  color: #444444;
 }
