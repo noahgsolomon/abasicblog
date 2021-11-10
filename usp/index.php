@@ -26,7 +26,7 @@
   <body>
     <div class="nav--bar">
       <div class="logo">
-        <a href="/index.html">
+        <a href="/abasicblog/index.php">
           <h2 class="logo--1">A</h2>
           <h2 class="logo--2">Basic</h2>
           <h2 class="logo--3">Blog.</h2>
@@ -34,7 +34,7 @@
       </div>
       <div class="nav--pages">
         <a href=""><h2>about.</h2></a>
-        <a href="/blogs/"><h2>blogs.</h2></a>
+        <a href="/abasicblog/blogs/"><h2>blogs.</h2></a>
         <a href=""><h2 class="newsletter--button--open">newsletter.</h2></a>
       </div>
       </div>
