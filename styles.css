@@ -74,7 +74,7 @@ body {
 /* content */
 
 .content--container {
-  margin-top: 20rem;
+  margin-top: 25rem;
   display: flex;
   justify-content: center;
 }
@@ -85,16 +85,9 @@ body {
 
 .content h1 {
   display: inline-block;
-  margin: 2rem 0;
-}
-.think {
+  margin: 0.5rem 0;
   letter-spacing: 1px;
   font-size: 3rem;
-}
-
-.basic {
-  letter-spacing: 1px;
-  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 764px) {
