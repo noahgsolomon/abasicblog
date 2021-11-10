@@ -27,13 +27,16 @@ body {
   text-decoration: none;
   margin: 0 5px;
   font-size: 1.25rem;
-  justify-content: end;
-  transition: 0.25s;
+  justify-content: center;
+
   color: #444444;
 }
+.nav--bar a h2 {
+  transition: 0.25s;
+}
 
-.nav--bar a:hover {
-  transform: scale(1.1);
+.nav--bar a h2:hover {
+  font-size: 2rem;
 }
 
 .nav--pages {
@@ -49,9 +52,6 @@ body {
 
 /* Logo */
 
-.logo {
-  font-size: 1.4rem;
-}
 .logo--1 {
   margin: 0;
 }
@@ -65,11 +65,8 @@ body {
   text-decoration: none;
   color: #444444;
 }
-.logo h2 {
-  transition: 0.25s;
-}
-.logo h2:hover {
-  transform: scale(1.1);
+.logo h1 {
+  font-size: 2rem;
 }
 /* content */
 
@@ -185,5 +182,7 @@ button {
   /* Newsletter Popup*/
   .newsletter {
     transform: scale(1.3);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
 }
