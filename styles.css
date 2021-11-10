@@ -85,15 +85,16 @@ body {
 
 .content h1 {
   display: inline-block;
-  margin: 1rem 0;
-  font-size: 3rem;
+  margin: 2rem 0;
 }
 .think {
   letter-spacing: 1px;
+  font-size: 3rem;
 }
 
 .basic {
-  letter-spacing: 10px;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 764px) {
