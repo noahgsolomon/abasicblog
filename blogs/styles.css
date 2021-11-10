@@ -92,7 +92,7 @@ body {
   transition: 0.25s;
 }
 .blog--list h3:hover {
-  transform: scale(1.1);
+  font-size: 1.65rem;
 }
 
 .blog--list a {
