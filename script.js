@@ -3,9 +3,9 @@ const formButton = document.querySelector('.newsletter--button--open');
 const popup = document.querySelector('.newsletter--container');
 const close = document.querySelector('.newsletter--close');
 const body = document.querySelector('body');
-const img = document.querySelector('.img--container')
-const navBarContainer = document.querySelector('.nav--container')
-const navBar = document.querySelector('.nav--bar')
+const img = document.querySelector('.img--container');
+const navBarContainer = document.querySelector('.nav--container');
+const navBar = document.querySelector('.nav--bar');
 
 formButton.addEventListener('click', function(e){
     popup.style.display = 'flex';
