@@ -152,7 +152,7 @@ img {
 /* Newsletter Popup*/
 form .title {
   margin: 2rem auto 2rem 2rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -182,6 +182,7 @@ form .title {
   border-radius: 10px;
   background-color: #ebe6d7;
   transition: 0.25s;
+  transform: scale(0.8);
 }
 
 .email--box {
