@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f5f3ec;
+  color: #444444;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
