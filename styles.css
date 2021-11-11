@@ -20,6 +20,7 @@ body {
   top: 0;
   width: 100vw;
   z-index: 1000;
+  background-color: #f5f3ec;
 }
 
 .nav--bar {
