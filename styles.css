@@ -27,6 +27,7 @@ body {
 .nav--bar {
   display: flex;
   flex-direction: row;
+  background-color: #f5f3ec;
   justify-content: space-between;
   margin: 1rem 1rem 0 1rem;
   align-items: center;
@@ -82,7 +83,7 @@ body {
 /* 1 */
 
 .content--usp {
-  margin-top: 12.5rem;
+  margin-top: 20rem;
   display: flex;
   justify-content: center;
   transition: 0.25s;
@@ -170,8 +171,11 @@ form .title {
   display: none;
   justify-content: center;
   position: absolute;
+  z-index: 2000;
 }
 .newsletter {
+  position: fixed;
+  top: 20rem;
   box-shadow: 5px 5px 0px 0px #444444c7, 10px 10px 0px 0px #44444467,
     15px 15px 0px 0px #4444446c, 20px 20px 0px 0px #44444431,
     25px 25px 0px 0px #44444407, 0px 0px 5px 5px rgba(68, 68, 68, 0);
