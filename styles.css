@@ -132,13 +132,16 @@ img {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  max-height: 300px;
+  max-height: 200px;
   object-fit: contain;
 }
 
 @media screen and (min-width: 764px) {
   .content--usp {
     margin-top: 15rem;
+  }
+  img {
+    max-height: 300px;
   }
 }
 
