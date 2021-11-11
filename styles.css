@@ -80,6 +80,7 @@ body {
 }
 /* content */
 /* 1 */
+
 .content--usp {
   margin-top: 12.5rem;
   display: flex;
@@ -89,7 +90,7 @@ body {
 .content--usp h1 {
   font-size: 3rem;
   font-weight: 300;
-  max-width: 20ch;
+  text-align: center;
 }
 
 /* 2 */
@@ -102,7 +103,8 @@ body {
 .content--goal h2 {
   font-size: 2.5rem;
   font-weight: 100;
-  max-width: 20ch;
+  max-width: 25ch;
+  text-align: center;
 }
 /* 3 */
 .content--designed {
@@ -115,6 +117,7 @@ body {
 .content--designed h2 {
   font-size: 2rem;
   font-weight: 100;
+  text-align: center;
 }
 
 .img--container {
