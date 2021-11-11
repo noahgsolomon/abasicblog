@@ -17,6 +17,7 @@ body {
 /* Nav Bar */
 .nav--container {
   position: fixed;
+  top: 0;
   width: 100vw;
 }
 
@@ -84,18 +85,20 @@ body {
 .content--usp h1 {
   font-size: 3rem;
   font-weight: 300;
+  max-width: 20ch;
 }
 
 /* 2 */
 .content--goal {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 0rem;
 }
 
 .content--goal h2 {
   font-size: 2.5rem;
   font-weight: 100;
+  max-width: 20ch;
 }
 
 .img--container {
