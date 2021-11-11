@@ -109,6 +109,8 @@ body {
   display: flex;
   justify-content: center;
   width: 100vw;
+  background-color: #f5f3ec;
+  z-index: 1000;
 }
 
 img {
