@@ -147,12 +147,13 @@ form .title {
   border-radius: 10px;
   background-color: #ebe6d7;
   transition: 0.25s;
+  transform: scale(0.9);
 }
 
 .email--box {
   transition: 0.25s;
   display: flex;
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 1rem 3rem 1rem;
 }
 
 .email--box input[type="email"] {
@@ -195,11 +196,13 @@ form .title {
 .newsletter--close {
   display: flex;
   justify-content: end;
+  margin-right: -3rem;
+  transition: 0.25s;
 }
 
 ::placeholder {
   font-family: "Raleway", sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 button {
   font-family: "Raleway", sans-serif;
@@ -209,7 +212,14 @@ button {
   /* Newsletter Popup*/
   .newsletter {
     transform: scale(1.3);
-    backface-visibility: hidden;
-    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  form .title {
+    font-size: 1.75rem;
+  }
+  .email--box {
+    padding: 0 1rem 3rem 1rem;
+  }
+  .newsletter--close {
+    margin-right: 0;
   }
 }
