@@ -102,6 +102,18 @@ body {
   font-weight: 100;
   max-width: 20ch;
 }
+/* 3 */
+.content--designed {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 50rem;
+}
+
+.content--designed h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
 
 .img--container {
   position: fixed;
